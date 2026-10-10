@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing & Coverage
+coverage/
+
+# Production Build Outputs
+dist/
+build/
+
+# Android Build Outputs & Gradle Caches
+.gradle/
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/build/
+android/capacitor-cordova-android-plugins/intermediates/
+
+# Local Android SDK configuration
+local.properties
+android/local.properties
+
+# Android artifacts
+*.apk
+*.aar
+*.aab
+*.dex
+*.class
+
+# Android Studio & IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Keystores & Signing Secrets
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+signing/
+release.keystore
+
+# Environment & API keys
+.env
+.env.*
+!.env.example
+*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
